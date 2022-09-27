@@ -34,9 +34,7 @@ class Ray():
                 break 
             if self.off_screen(current_position):
                 break
-
     
-    @staticmethod
     def Signed_Distance(start_position, end_position, radius):
         start_x_position, start_y_position = start_position 
         end_x_position, end_y_position = end_position
